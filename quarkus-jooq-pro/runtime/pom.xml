@@ -30,14 +30,12 @@
             <groupId>org.graalvm.sdk</groupId>
             <artifactId>graal-sdk</artifactId>
         </dependency>
-
-        <!-- jOOQ dependencies -->
+        <!-- https://nexus3.inventage.com/#browse/browse:thirdparty-nonfree-maven:org%2Fjooq%2Fpro%2Fjooq -->
         <dependency>
             <groupId>org.jooq.pro</groupId>
             <artifactId>jooq</artifactId>
             <version>${org.jooq.version}</version>
         </dependency>
-
         <dependency>
             <groupId>io.quarkiverse.jooq</groupId>
             <artifactId>quarkus-jooq</artifactId>
